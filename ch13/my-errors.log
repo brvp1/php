@@ -1,0 +1,34 @@
+mysqli_sql_exception: Unknown column 'quotes' in 'field list' in /var/www/html/ch13/view_quotes.php:26
+Stack trace:
+#0 /var/www/html/ch13/view_quotes.php(26): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joe@mdc.edu' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''me@example.com' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joe@mdc.edu' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joe@mdc.edu' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joed@mdc.edu' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joed@mdc.edu' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joed@mdc.edu' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joed@mdc.edu' at line 1 in /var/www/html/ch13/login.php:18
+Stack trace:
+#0 /var/www/html/ch13/login.php(18): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joed@mdc.edu' at line 1 in /var/www/html/ch13/login.php:20
+Stack trace:
+#0 /var/www/html/ch13/login.php(20): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''joe@mdc.edu' at line 1 in /var/www/html/ch13/login.php:20
+Stack trace:
+#0 /var/www/html/ch13/login.php(20): mysqli_query()
+#1 {main}

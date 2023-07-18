@@ -1,0 +1,55 @@
+mysqli_sql_exception: Incorrect datetime value: '06-01-2023 11:22PM' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:54
+Stack trace:
+#0 /var/www/html/assignment4/report.php(54): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /var/www/html/assignment4/report.php:54
+Stack trace:
+#0 /var/www/html/assignment4/report.php(54): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '07-15-2023 3:22:00 PM' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '07-22-2023 07:01:00' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '07-22-2023 07:01:00' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '06-01-2023 11:22:30 PM' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '2023-07-22 03:11:02 PM' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '2023-07-23 15:02:02 PM' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '2023-07-23 15:02:02 PM' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'josmith@mdc.edu' for key 'users.email' in /var/www/html/assignment4/register.php:68
+Stack trace:
+#0 /var/www/html/assignment4/register.php(68): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'josmith@mdc.edu' for key 'users.email' in /var/www/html/assignment4/register.php:68
+Stack trace:
+#0 /var/www/html/assignment4/register.php(68): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'cjung@mdc.edu' for key 'users.email' in /var/www/html/assignment4/register.php:68
+Stack trace:
+#0 /var/www/html/assignment4/register.php(68): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'cgarcia@mdc.edu' for key 'users.email' in /var/www/html/assignment4/register.php:68
+Stack trace:
+#0 /var/www/html/assignment4/register.php(68): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect datetime value: '06-01-2023' for column 'creationDate' at row 1 in /var/www/html/assignment4/report.php:57
+Stack trace:
+#0 /var/www/html/assignment4/report.php(57): mysqli_query()
+#1 {main}

@@ -1,0 +1,50 @@
+<?php
+/* 
+    Author: Bhairavi Patel
+    Date: 06/30/2023
+*/
+define('TITLE', "Login");
+include dirname(__DIR__) . "/project2/templates/header.php";
+// print some introductory text:
+print '<h2>Login Form</h2>';
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    // handle the form
+    if ((!empty($_POST['email']) && (!empty($_POST['password'])))) {
+
+        if ((strtolower($_POST['email']) == 'me@example.com')
+            && ($_POST['password'] == 'testpass')) {
+                
+            // session code
+            session_start();
+            $_SESSION['email'] = $_POST['email'];
+            $_SESSION['loggedin'] = time();
+
+            // correct email and password
+            ob_end_clean(); // destroy the buffer
+            header('Location: home.php');
+            exit();
+        } else {
+            print '<p class="text--error">The submitted email address and password do not match those on file!<br>Go back and try again.</p>';
+        }
+    } else { // Forgot a field
+        print '<p class="text--error">Please make sure you enter both an email address and a password!<br>Go back and try again.</p>';
+    }
+} else { // Display the form
+?>
+    <form action="login.php" method="post">
+        <p><label for="email">Email Address:</label>
+            <input type="email" name="email" size="20">
+        </p>
+        <p><label for="password">Password:</label>
+            <input type="password" name="password" size="20">
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Log In!">
+        </p>
+    </form>
+<?php
+}
+
+include dirname(__DIR__) . "/project2/templates/footer.php";
+?>

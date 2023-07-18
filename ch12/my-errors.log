@@ -1,0 +1,31 @@
+mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES) in /var/www/html/ch12/mysqli_connect.php:16
+Stack trace:
+#0 /var/www/html/ch12/mysqli_connect.php(16): mysqli_connect()
+#1 {main}mysqli_sql_exception: Table 'entries' already exists in /var/www/html/ch12/create_table.php:26
+Stack trace:
+#0 /var/www/html/ch12/create_table.php(26): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'entries' already exists in /var/www/html/ch12/create_table.php:26
+Stack trace:
+#0 /var/www/html/ch12/create_table.php(26): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'entries' already exists in /var/www/html/ch12/create_table.php:26
+Stack trace:
+#0 /var/www/html/ch12/create_table.php(26): mysqli_query()
+#1 {main}mysqli_sql_exception: Invalid character set was provided in /var/www/html/ch12/add_entry.php:34
+Stack trace:
+#0 /var/www/html/ch12/add_entry.php(34): mysqli_set_charset()
+#1 {main}mysqli_sql_exception: Invalid character set was provided in /var/www/html/ch12/add_entry.php:34
+Stack trace:
+#0 /var/www/html/ch12/add_entry.php(34): mysqli_set_charset()
+#1 {main}mysqli_sql_exception: Invalid character set was provided in /var/www/html/ch12/add_entry.php:34
+Stack trace:
+#0 /var/www/html/ch12/add_entry.php(34): mysqli_set_charset()
+#1 {main}mysqli_sql_exception: Invalid character set was provided in /var/www/html/ch12/add_entry.php:34
+Stack trace:
+#0 /var/www/html/ch12/add_entry.php(34): mysqli_set_charset()
+#1 {main}mysqli_sql_exception: Invalid character set was provided in /var/www/html/ch12/add_entry.php:34
+Stack trace:
+#0 /var/www/html/ch12/add_entry.php(34): mysqli_set_charset()
+#1 {main}mysqli_sql_exception: Table 'entries' already exists in /var/www/html/ch12/create_table.php:26
+Stack trace:
+#0 /var/www/html/ch12/create_table.php(26): mysqli_query()
+#1 {main}
