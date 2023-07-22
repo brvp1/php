@@ -1,0 +1,37 @@
+mysqli_sql_exception: Invalid character set was provided in /var/www/html/project3/mysqli_connect.php:17
+Stack trace:
+#0 /var/www/html/project3/mysqli_connect.php(17): mysqli_set_charset()
+#1 {main}mysqli_sql_exception: Invalid character set was provided in /var/www/html/project3/mysqli_connect.php:25
+Stack trace:
+#0 /var/www/html/project3/mysqli_connect.php(25): mysqli_set_charset()
+#1 {main}mysqli_sql_exception: Invalid character set was provided in /var/www/html/project3/mysqli_connect.php:25
+Stack trace:
+#0 /var/www/html/project3/mysqli_connect.php(25): mysqli_set_charset()
+#1 /var/www/html/project3/register.php(40): include('...')
+#2 {main}mysqli_sql_exception: Duplicate entry 'janesmith' for key 'user.username' in /var/www/html/project3/register.php:50
+Stack trace:
+#0 /var/www/html/project3/register.php(50): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'janesmith' for key 'user.username' in /var/www/html/project3/register.php:50
+Stack trace:
+#0 /var/www/html/project3/register.php(50): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'johnsmith' for key 'user.username' in /var/www/html/project3/register.php:50
+Stack trace:
+#0 /var/www/html/project3/register.php(50): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'johnsmith' for key 'user.username' in /var/www/html/project3/register.php:50
+Stack trace:
+#0 /var/www/html/project3/register.php(50): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'johnsmith' for key 'user.username' in /var/www/html/project3/register.php:52
+Stack trace:
+#0 /var/www/html/project3/register.php(52): mysqli_query()
+#1 {main}mysqli_sql_exception: Duplicate entry 'jdoe' for key 'user.username' in /var/www/html/project3/register.php:50
+Stack trace:
+#0 /var/www/html/project3/register.php(50): mysqli_query()
+#1 {main}mysqli_sql_exception: php_network_getaddresses: getaddrinfo for host failed: Temporary failure in name resolution in /var/www/html/project3/mysqli_connect.php:23
+Stack trace:
+#0 /var/www/html/project3/mysqli_connect.php(23): mysqli_connect()
+#1 /var/www/html/project3/login.php(17): include('...')
+#2 {main}mysqli_sql_exception: php_network_getaddresses: getaddrinfo for host failed: Temporary failure in name resolution in /var/www/html/project3/mysqli_connect.php:23
+Stack trace:
+#0 /var/www/html/project3/mysqli_connect.php(23): mysqli_connect()
+#1 /var/www/html/project3/skills.php(21): include('...')
+#2 {main}

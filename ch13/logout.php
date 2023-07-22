@@ -3,10 +3,16 @@
 the cookie. */
 
 // Destroy the cookie, but only if it already exists:
-if (isset($_COOKIE['Samuel'])) {
+// if (isset($_COOKIE['Samuel'])) {
 
-    setcookie('Samuel', FALSE, time() - 300);
-}
+//     setcookie('Samuel', FALSE, time() - 300);
+// }
+
+// Destroy the session, but only if it exists
+session_destroy();
+
+// Clear the session variable
+$_SESSION = [];
 
 // Define a page title and include the header:
 define('TITLE', 'Logout');

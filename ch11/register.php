@@ -34,20 +34,30 @@
         }
         if (!$problem) { // If there weren't any problems...
             if (is_writable($file)) { // Open the file.
+
                 // Create the data to be written:
                 $subdir = time() . rand(0, 4596);
+
                 $data = $_POST['username'] . "\t" . sha1(trim($_POST['password1'])) . "\t" . $subdir . PHP_EOL;
+
                 // Write the data:
                 file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
+
                 // Create the directory:
                 mkdir($dir . $subdir);
+
                 // Print a message:
                 print '<p>You are now registered!</p>';
+
             } else { // Couldn't write to the file.
+
                 print '<p class="error">You could not be registered due to a system error.</p>';
+
             }
         } else { // Forgot a field.
+
             print '<p class="error">Please go back and try again!</p>';
+            
         }
     } else { // Display the form.
         // Leave PHP and display the form: 

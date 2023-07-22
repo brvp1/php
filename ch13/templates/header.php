@@ -1,5 +1,6 @@
 <?php
 include(dirname(__DIR__) . '/includes/functions.php');
+session_start();
 ?>
 <!doctype html>
 <html lang="en">

@@ -36,15 +36,19 @@ try {
                 print ' <strong>Favorite!</strong>';
             }
             // Add administrative links:
-            print "<p><b>Quote Admin:</b> <a href=\"edit_quote. php?id={$row['id']}\">Edit</a> <-><a href=\"delete_quote. php?id={$row['id']}\">Delete</a></p></div>\n";
+            print "<p><b>Quote Admin:</b> <a href=\"edit_quote.php?id={$row['id']}\">Edit</a> <-><a href=\"delete_quote.php?id={$row['id']}\">Delete</a></p></div>\n";
         } // End of while loop. 
     }
 } catch (mysqli_sql_exception $e) {
+    
     print '<p class="error">Could not retrieve the data because:<br>' . mysqli_error($dbc) . '.</p><p>The query being run was: ' . $query . '</p>';
 
-    error_log($e->__toString(), 3, "/var/www/html/ch13/my-errors.log");
+    error_log($e->__toString(), 3, "/var/www/html/project3/my-errors.log");
+
 } finally {
+
     mysqli_close($dbc);
+
 }
 
 mysqli_close($dbc); // Close the connection. 

@@ -1,4 +1,5 @@
 <?php 
+
      /* This page lets people log into the site. */
 
     // Set two variables with default values:
@@ -9,6 +10,10 @@
     include(dirname(__DIR__).'/ch13/mysqli_connect.php');
 
     print $db_password;
+
+     // Set the page title and include the header file:
+     define('TITLE', 'Login');
+     include(dirname(__DIR__).'/ch13/templates/header.php');
 
     // Check if the form has been submitted:
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -52,7 +57,10 @@
                  (sha1(trim($_POST['password'])) == $db_password) && !$error) { 
 
                     // Create the cookie:
-                    setcookie('Samuel', 'Clemens', time()+3600);
+                    //setcookie('Samuel', 'Clemens', time()+3600);
+
+                    // Create a session
+                    $_SESSION['email'] = $_POST['email']; // save email in a session
 
                     // indicate they are logged in:
                     $loggedin = true;
@@ -72,9 +80,7 @@
 
     } // IF validation block
 
-    // Set the page title and include the header file:
-    define('TITLE', 'Login');
-    include(dirname(__DIR__).'/ch13/templates/header.php');
+   
 
     // Print an error if one exists:
         if ($error) {
