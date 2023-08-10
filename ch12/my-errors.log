@@ -28,4 +28,7 @@ Stack trace:
 #1 {main}mysqli_sql_exception: Table 'entries' already exists in /var/www/html/ch12/create_table.php:26
 Stack trace:
 #0 /var/www/html/ch12/create_table.php(26): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'entries' already exists in /var/www/html/ch12/create_table.php:26
+Stack trace:
+#0 /var/www/html/ch12/create_table.php(26): mysqli_query()
 #1 {main}
