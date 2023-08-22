@@ -1,0 +1,64 @@
+mysqli_sql_exception: Table 'medical_website.user' doesn't exist in /var/www/html/medical_website/signup.php:57
+Stack trace:
+#0 /var/www/html/medical_website/signup.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Data truncated for column 'password' at row 1 in /var/www/html/medical_website/signup.php:57
+Stack trace:
+#0 /var/www/html/medical_website/signup.php(57): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'medical_website.entries' doesn't exist in /var/www/html/medical_website/add_review.php:65
+Stack trace:
+#0 /var/www/html/medical_website/add_review.php(65): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'medical_website.entries' doesn't exist in /var/www/html/medical_website/add_review.php:65
+Stack trace:
+#0 /var/www/html/medical_website/add_review.php(65): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'medical_website.entries' doesn't exist in /var/www/html/medical_website/add_review.php:65
+Stack trace:
+#0 /var/www/html/medical_website/add_review.php(65): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'medical_website.entries' doesn't exist in /var/www/html/medical_website/add_review.php:65
+Stack trace:
+#0 /var/www/html/medical_website/add_review.php(65): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'medical_website.entries' doesn't exist in /var/www/html/medical_website/add_review.php:65
+Stack trace:
+#0 /var/www/html/medical_website/add_review.php(65): mysqli_query()
+#1 {main}mysqli_sql_exception: Table 'medical_website.entries' doesn't exist in /var/www/html/medical_website/add_review.php:65
+Stack trace:
+#0 /var/www/html/medical_website/add_review.php(65): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect integer value: '' for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect integer value: '' for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect integer value: '' for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data truncated for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data truncated for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data truncated for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data truncated for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data truncated for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data truncated for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data too long for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Data too long for column 'phone_number' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect date value: '' for column 'appointment_date' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}mysqli_sql_exception: Incorrect date value: '' for column 'appointment_date' at row 1 in /var/www/html/medical_website/book_appointment.php:63
+Stack trace:
+#0 /var/www/html/medical_website/book_appointment.php(63): mysqli_query()
+#1 {main}

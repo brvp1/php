@@ -8,9 +8,9 @@
 
     $rows = explode("\n", $file_text);
 
-    echo "<pre>";
-    print_r($rows);
-    echo "</pre>";
+    // echo "<pre>";
+    // print_r($rows);
+    // echo "</pre>";
 
     // foreach ($rows as $row) {
         
@@ -26,8 +26,8 @@
     $host = $host_array[1];
     $database =  $database_array[1];
 
-    echo $database;
-    print_r($username_array);
+    // echo $database;
+    // print_r($username_array);
 
     try {
 

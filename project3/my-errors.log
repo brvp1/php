@@ -44,4 +44,16 @@ Stack trace:
 Stack trace:
 #0 /var/www/html/project3/mysqli_connect.php(23): mysqli_connect()
 #1 /var/www/html/project3/register.php(40): include('...')
-#2 {main}
+#2 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DES' at line 1 in /var/www/html/medical_website/reviews.php:49
+Stack trace:
+#0 /var/www/html/medical_website/reviews.php(49): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DES' at line 1 in /var/www/html/medical_website/reviews.php:49
+Stack trace:
+#0 /var/www/html/medical_website/reviews.php(49): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DEC' at line 1 in /var/www/html/medical_website/reviews.php:49
+Stack trace:
+#0 /var/www/html/medical_website/reviews.php(49): mysqli_query()
+#1 {main}mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DEC' at line 1 in /var/www/html/medical_website/reviews.php:49
+Stack trace:
+#0 /var/www/html/medical_website/reviews.php(49): mysqli_query()
+#1 {main}

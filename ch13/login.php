@@ -9,7 +9,7 @@
     // get db connection
     include(dirname(__DIR__).'/ch13/mysqli_connect.php');
 
-    print $db_password;
+    //print $db_password;
 
      // Set the page title and include the header file:
      define('TITLE', 'Login');

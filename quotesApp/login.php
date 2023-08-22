@@ -9,9 +9,7 @@
     // get db connection
     include(dirname(__DIR__).'/quotesApp/mysqli_connect.php');
 
-    print $db_password;
-
-     // Set the page title and include the header file:
+    // Set the page title and include the header file:
      define('TITLE', 'Login');
      include(dirname(__DIR__).'/quotesApp/templates/header.php');
 
@@ -54,10 +52,7 @@
         if (!empty($_POST['email']) && !empty($_POST['password'])) {
 
             if ( (strtolower($_POST['email']) == $db_email) && 
-                 (sha1(trim($_POST['password'])) == $db_password) && !$error) { 
-
-                    // Create the cookie:
-                    //setcookie('Samuel', 'Clemens', time()+3600);
+                 (sha1(trim($_POST['password'])) == $db_password) && !$error) {
 
                     // Create a session
                     $_SESSION['email'] = $_POST['email']; // save email in a session
